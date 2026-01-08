@@ -1,0 +1,167 @@
+{
+  "settings": {
+    "name": "ethena-fi-app",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "startm5",
+      "title": "StartM5",
+      "titlePreset": "StartM5",
+      "styling": {
+        "primaryColor": "#9fe870",
+        "secondaryColor": "#ffd7ef",
+        "successColor": "#3a341c",
+        "infoColor": "#320707",
+        "warningColor": "#a0e2e1",
+        "dangerColor": "#ffea64",
+        "mainFont": "Inter Tight",
+        "display1Font": "Inter Tight",
+        "display1Size": 5,
+        "display2Font": "Inter Tight",
+        "display2Size": 4,
+        "display5Font": "Inter Tight",
+        "display5Size": 2,
+        "display7Font": "Inter Tight",
+        "display7Size": 1.4,
+        "display4Font": "Inter Tight",
+        "display4Size": 1.4,
+        "isRoundedImages": true,
+        "isRoundedButtons": true,
+        "isLargeButtons": true,
+        "isGhostButtonBorder": true,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.9.18",
+    "siteFonts": [],
+    "favicon": "@PROJECT_PATH@/assets/images/ethena-fi-favicon.png",
+    "robotsSwitcher": true,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\nSitemap: https://ethena-fi-app.github.io/sitemap.xml/",
+    "sitemapSwitcher": true,
+    "siteUrl": "https://ethena-fi-app.github.io/",
+    "sitemapSwitcherAuto": "on",
+    "imageResize": false,
+    "usedWebp": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "uniqCompNum": 5,
+    "versionPublish": "5.9.18"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Ethena Fi – Crypto Native Dollar (USDe) and DeFi Yield Protocol",
+        "meta_descr": "Ethena.fi is a crypto native DeFi protocol offering USDe, a synthetic dollar, and sUSDe, a yield-bearing asset for decentralized finance.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            }
+          },
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image & Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <a href=\"https://ethena.fi/\"><img src=\"@PROJECT_PATH@/assets/images/ethena-fi-app-page.png\" alt=\"ethena fi\"></a>\n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Unlock your true path!\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "v7K6MbH0fc",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image04-0"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            }
+          },
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image & Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <a href=\"https://ethena.fi/\"><img src=\"@PROJECT_PATH@/assets/images/ethena-fi-app-page.png\" alt=\"Ethena Fi\"></a>\n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Unlock your true path!\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "v7K71ppeqM",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image04-2"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".card-wrapper": {
+              "background": "@wrapBgColor",
+              "@media (max-width: 767px)": {
+                "padding": "2rem 1.5rem"
+              },
+              "@media (min-width: 768px) and (max-width: 991px)": {
+                "padding": "2.25rem"
+              },
+              "@media (min-width: 992px)": {
+                "padding": "4rem"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#000000",
+              "text-align": "left"
+            },
+            ".card-title, .card-box": {
+              "text-align": "left",
+              "color": "#000000"
+            }
+          },
+          "_name": "article07",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article07\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"range\" inline title=\"Content Width\" name=\"contentWidth\" min=\"8\" max=\"12\" step=\"1\" value=\"10\">\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n    <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n    <input type=\"color\" title=\"Wrap Bg\" name=\"wrapBgColor\" value=\"#ffffff\">\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n      <input type=\"color\" title=\"Color\" value=\"#edefeb\" selected>\n      <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n    </fieldset>\n    <header condition=\"bg.type === 'video'\">Fallback Image</header>\n    <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n  </mbr-parameters>\n\n  <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center\">\n      <div class=\"card col-md-12 col-lg-{{contentWidth}}\">\n        <div class=\"card-wrapper\">\n          <h3 class=\"card-title mbr-fonts-style mbr-white mt-3 mb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b>Ethena Fi – Crypto Native Dollar (USDe) and DeFi Yield Protocol</b></h3>\n          <div class=\"row card-box align-left\">\n            \n            \n            \n            <div class=\"item features-without-image col-12 active\">\n              <div class=\"item-wrapper\">\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b><a href=\"https://ethena-fi-app.github.io/\" class=\"text-primary\">Ethena.fi</a> : Web3’s Crypto-Native Dollar and Yield Engine</b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">In the ever-evolving landscape of decentralized finance (DeFi), one of the most intriguing innovations of recent years is <a href=\"https://ethena-fi-app.github.io/\" class=\"text-primary\">Ethena.fi</a> — a protocol designed to create a crypto-native dollar and yield-bearing money without reliance on traditional banking or fiat reserves. With its unique synthetic dollar (USDe), yield token (sUSDe), and governance token (ENA), Ethena is positioning itself at the intersection of stablecoins, derivatives, and decentralized money systems in a way that challenges conventional stablecoin models. <br><br><br><a href=\"https://ethena.fi/\" class=\"text-primary\">What Is Ethena Fi</a> and Why It Matters<br><br>At its core, Ethena is a decentralized protocol built on Ethereum that issues a synthetic dollar called USDe. Unlike traditional stablecoins such as USDC or USDT that rely on fiat reserves held in bank accounts and custodial entities, USDe is backed by crypto assets and derivative positions — and operates entirely within the crypto ecosystem.<br><br>The essential thesis behind Ethena is simple yet ambitious: create a form of money that is censorship-resistant, scalable, and native to the decentralized economy. This mission resonates deeply with the ethos of DeFi — aiming to reduce dependence on centralized financial institutions and fiat-based instruments while providing a usable, dollar-pegged asset.<br><br>The importance of such an innovation lies in the broader crypto ecosystem’s need for reliable money: stable, interoperable across chains and protocols, and compensated with real yield. By rethinking how a dollar‐like asset can be constructed — without traditional bank deposits — Ethena is effectively redefining what “money” can be in a decentralized world.<br><br>How the Synthetic Dollar (USDe) Works<br><br>USDe stands for a delta-neutral synthetic dollar — a digital asset that maintains a 1:1 peg to the US dollar through a clever risk-neutral mechanism rather than backing by cash or securities. This is achieved by pairing crypto collateral with short positions in perpetual futures contracts on derivatives markets. <br><br><br>Here’s a simplified breakdown of the process:<br><br>Collateral Deposited: A user deposits crypto assets such as ETH, BTC, or liquid staking tokens (e.g., stETH) into the Ethena protocol.<br><br>Delta-Neutral Hedge: Simultaneously, the protocol opens a short position of equivalent value in perpetual futures markets. This effectively offsets directional price risk — gains or losses in the collateral are neutralized by the opposing derivative position.<br><br>USDe Minted: The user receives newly minted USDe tokens in exchange, typically at a value close to $1. <br>Ethena<br><br>The term delta-neutral means the net exposure to price movements in the underlying crypto is essentially zero — the sum of the long spot and short futures positions keeps the total value relatively stable. This synthetic construction allows USDe to stay near its $1 target even amid the volatility inherent to crypto assets.<br><br>sUSDe: The Crypto “Internet Bond”<br><br>While USDe provides a stable, dollar-denominated asset, Ethena’s innovation goes a step further with sUSDe — a yield-bearing version of USDe that functions like a crypto-native bond. When users stake USDe, they receive sUSDe in return. This token automatically accrues yield derived from Ethena’s revenue streams.<br><br>Unlike typical yield farming strategies where users might deposit assets into risky lending protocols or liquidity pools, sUSDe’s yield comes from Ethena’s own hedging engine and revenue generation mechanisms. These include:<br><br>Perpetual futures funding rates: In typical crypto perp markets, funding rates represent periodic payments exchanged between long and short holders. <a href=\"https://ethena.fi/\" class=\"text-primary\">Ethena Fi</a> earns these payments by consistently holding short positions relative to its spot collateral.<br><br>Staking income from backing assets: If ETH or liquid staking derivatives are used as collateral, the underlying staking rewards also contribute to sUSDe’s revenue.<br><br>Stablecoin yields: Where liquid stablecoins are part of the backing, yield from these holdings can further enhance returns.<br><br>Unlike traditional fixed-income instruments, sUSDe’s yield isn’t guaranteed. Instead, it reflects the income generated by the network’s operations — historically ranging from high double digits early on to more moderate single-digit APRs as markets mature.<br><br>Governance and the ENA Token<br><br>The ENA token plays a central role in Ethena’s ecosystem. ENA serves as the governance and utility token, empowering holders to participate in decisions around risk parameters, collateral types, and broader ecosystem policies. Governance is crucial for managing the complex economics of a synthetic dollar system that interacts with volatile markets and derivatives risk.<br><br>Beyond governance, ENA also facilitates ecosystem incentives and helps align community decision-making with the long-term success of the protocol. As <a href=\"https://ethena.fi/\" class=\"text-primary\">Ethena fi</a> grows, ENA’s role may expand into fee distribution and deeper integration with new financial primitives built on the network.<br><br>Composability and Ecosystem Growth<br><br>One of Ethena’s strategic advantages is its DeFi composability — USDe and sUSDe aren’t limited to Ethena’s native platform. They can be integrated into:<br><br>Decentralized exchanges (DEXs)<br><br>Lending markets<br><br>Structured products and derivatives platforms<br><br>Cross-chain bridges and ecosystems<br><br>This composability enables Ethena’s synthetic dollar to be used as a settlement asset, collateral within other protocols, and a base layer for financial innovation. Projects building on Ethena’s primitives can offer complex products like risk-tranching, yield enhancement, and options strategies — all centered around USDe and sUSDe. <br><a href=\"https://ethena.fi/\" class=\"text-primary\">Ethena Fi</a><br><br>Risks and Criticisms<br><br>Despite its innovation, Ethena carries meaningful risks that participants must understand. Key considerations include:<br><br>Funding Rate Dependence: sUSDe’s yield depends heavily on positive funding rates in perpetual markets. If rates turn negative — for example, during market stress — revenue could decline or even reverse.<br><br>Derivative Counterparty Exposure: While collateral remains off-exchange, Ethena’s hedging strategy involves centralized exchanges. Insolvencies or operational disruptions at these venues pose potential systemic risks.<br><br>Custodial Risks: Using off-exchange custodians for backing assets introduces operational risk if those providers fail or have security issues.<br><br>Regulatory Uncertainty: In 2025, Germany’s financial regulator halted Ethena’s sale of USDe in its jurisdiction due to regulatory compliance concerns — highlighting the uncertain legal environment around synthetic finance products. <br><br><br>Smart Contract Vulnerability: Like all DeFi protocols, Ethena’s complex smart contracts are vulnerable to bugs or exploits despite audits.<br><br>The Future of Ethena and Crypto Money<br><br><a href=\"https://ethena.fi/\" class=\"text-primary\">Ethena fi</a> represents a compelling experiment in reimagining money for the decentralized web. By leveraging market-neutral strategies, derivative markets, and native blockchain assets, it pushes beyond the limits of traditional stablecoins — offering not just price stability, but yield potential and programmable money properties. <br><br>As it continues to evolve, Ethena’s success will hinge on market conditions, risk management, regulatory clarity, and broader adoption of crypto-native money systems. Whether it becomes a foundational pillar of a truly decentralized financial infrastructure or remains a niche innovation, Ethena’s blend of synthetic assets and yield mechanics will undoubtedly influence the future shape of DeFi money.</p>\n              </div>\n            </div>\n          </div>\n          <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Start Now</a>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>",
+          "_cid": "v7K72pbk8z",
+          "_anchor": "article07-3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
